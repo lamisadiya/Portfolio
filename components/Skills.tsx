@@ -50,7 +50,7 @@ export default function Skills() {
       : techSkills.filter((skill) => skill.category === activeCategory);
 
   return (
-    <section className="py-20 bg-linear-to-b from-white to-gray-50 dark:from-black dark:to-gray-900">
+    <section id="skills" className="py-20 bg-linear-to-b from-white to-gray-50 dark:from-black dark:to-gray-900">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-5xl font-bold text-center mb-16 bg-clip-text text-transparent bg-linear-to-r from-blue-600 to-purple-600">
           Skills & Expertise
