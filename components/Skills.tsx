@@ -19,7 +19,8 @@ import {
   SiTypescript,
 } from "react-icons/si";
 import { BarChart3, Sparkles } from "lucide-react";
-
+import { categories } from "@/lib/constant";
+import { currentlyLearning } from "@/lib/constant";
 const techSkills = [
   { name: "C++", icon: <SiCplusplus className="w-10 h-10" />, proficiency: 90, category: "Programming" },
   { name: "Python", icon: <SiPython className="w-10 h-10" />, proficiency: 85, category: "Programming" },
@@ -39,8 +40,6 @@ const techSkills = [
   { name: "MySQL", icon: <SiMysql className="w-10 h-10" />, proficiency: 65, category: "Backend" },
 ];
 
-const categories = ["All", "Programming", "Frontend", "Animation", "Data Science", "Backend"];
-const currentlyLearning = ["SQA"];
 
 export default function Skills() {
   const [activeCategory, setActiveCategory] = useState("All");

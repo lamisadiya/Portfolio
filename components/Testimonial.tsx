@@ -1,23 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { Star, Quote } from "lucide-react";
-
-const testimonials = [
-  {
-    name: "Graphodio Team",
-    role: "Current Colleagues & Lead Developer",
-    content:
-      "Excellent at delivering smooth, animated web experiences on time. Strong attention to detail and always willing to go the extra mile with GSAP and modern Next.js practices.",
-    rating: 5,
-  },
-  {
-    name: "ACM Student Chapter Team",
-    role: "IUB ACM Chapter (Mar 2021 – Oct 2022)",
-    content:
-      "Led membership drives and organized technical events with outstanding teamwork and leadership skills in a competitive tech community. A proactive and reliable team member.",
-    rating: 5,
-  },
-];
+import { testimonials } from "@/lib/constant";
 
 export default function Testimonials() {
   return (

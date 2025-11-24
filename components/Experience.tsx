@@ -1,46 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { Briefcase, Calendar, ExternalLink } from "lucide-react";
-
-const experiences = [
-  {
-    role: "Web Developer",
-    company: "Graphodio",
-    duration: "Oct 2024 – Present",
-    link: "https://graphodio.com", // optional
-    bullets: [
-      "Building high-performance creative agency websites using Next.js 14+, TypeScript, and GSAP animations",
-      "Implemented advanced scroll-triggered animations and micro-interactions that improved user engagement by ~45%",
-      "Optimized Core Web Vitals (LCP < 1.8s, CLS < 0.05) using SSR, lazy loading, and next/image",
-      "Integrated headless CMS (Sanity/Strapi) and deployed via Vercel with CI/CD",
-    ],
-    tech: ["Next.js", "TypeScript", "GSAP", "Framer Motion", "Tailwind", "Sanity"],
-  },
-  {
-    role: "Frontend Developer Intern",
-    company: "Bizcope",
-    duration: "Jun 2024 – Sep 2024",
-    bullets: [
-      "Developed and shipped 5+ responsive landing pages and dashboards using React, Tailwind CSS, and React Query",
-      "Reduced API calls by 60% through state management optimization (Zustand + caching)",
-      "Collaborated with designers using Figma → implemented pixel-perfect UIs with smooth animations",
-      "Participated in daily standups and code reviews in a team of 8 developers",
-    ],
-    tech: ["React", "Tailwind", "React Query", "Zustand", "Figma"],
-  },
-  {
-    role: "Admission Support Intern",
-    company: "University Admission Portal",
-    duration: "Dec 2021 – Aug 2022",
-    bullets: [
-      "Built internal tools using PHP & MySQL that automated 80% of manual data entry tasks",
-      "Created dynamic student dashboards with real-time application status updates",
-      "Assisted in migrating legacy system to Laravel, improving load time from 12s → 2.3s",
-      "Provided technical support and training to 50+ administrative staff",
-    ],
-    tech: ["PHP", "Laravel", "MySQL", "JavaScript", "Bootstrap"],
-  },
-];
+import { experiences } from "@/lib/constant";
 
 export default function Experience() {
   return (

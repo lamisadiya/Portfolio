@@ -1,45 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import { GraduationCap, Calendar, BookOpen } from "lucide-react";
+import { education } from "@/lib/constant";
 
-const education = [
-  {
-    degree: "BSc in Computer Science and Engineering",
-    institution: "Independent University, Bangladesh",
-    duration: "2019 – Apr 2024",
-    relevantCourses: [
-      "Data Structures", " Algorithms",
-      "Object-Oriented Programming",
-      "Database Management Systems",
-      "Operating Systems",
-      "Computer Networks",
-      "Software Engineering",
-      "Web application",
-      "Cloud computing",
-      "Numerical Methods",
-      "Theory of Computing",
-    ],
-  },
-  {
-    degree: "Advanced Level (A Levels)",
-    institution: "British Council",
-    duration: "2018 – 2019",
-    relevantCourses: ["Physics", "Chemistry", "Mathematics"],
-  },
-  {
-    degree: "Ordinary Level (O Levels)",
-    institution: "British Council",
-    duration: "2017",
-    relevantCourses: [
-      "General Mathematics",
-      "Physics",
-      "Chemistry",
-      "Biology",
-      "English ",
-      "Bangla",
-    ],
-  },
-];
 
 export default function Education() {
   return (
