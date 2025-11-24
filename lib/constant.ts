@@ -77,4 +77,4 @@ export const education = [
   },
 ];
 
-export const categories = ["All", "Programming", "Frontend", "Animation", "Backend", "Data Science"];
+export const categories = ["Programming", "Frontend", "Animation", "Backend", "Data Science"];
