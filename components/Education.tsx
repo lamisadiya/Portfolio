@@ -77,15 +77,7 @@ export default function Education() {
                       <GraduationCap className="w-7 h-7 text-white" />
                     </motion.div>
 
-                    {/* Pulse ring when active */}
-                    {isActive && (
-                      <motion.div
-                        className="absolute inset-0 rounded-full bg-cyan-400"
-                        animate={{ scale: [1, 1.6], opacity: [0.6, 0] }}
-                        transition={{ duration: 1.5, repeat: Infinity }}
-                      />
-                    )}
-                  </button>
+                                      </button>
 
                   {/* Expandable Card */}
                   <motion.div
