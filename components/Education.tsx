@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { GraduationCap, Calendar, BookOpen, ChevronDown } from "lucide-react";
 import { education } from "@/lib/constant";
 
@@ -129,7 +129,7 @@ export default function Education() {
                       </div>
 
                       {/* Expandable Content */}
-                      <AnimatePresence>
+                      
                         {isActive && (
                           <motion.div
                             id={`edu-content-${i}`}
@@ -168,7 +168,7 @@ export default function Education() {
                             </div>
                           </motion.div>
                         )}
-                      </AnimatePresence>
+                    
 
                       {/* Accent Bar */}
                       <div className="h-1 bg-linear-to-r from-cyan-500 to-blue-600" />
